@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Xanh+Mono:ital@0;1&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("../images/livros.png");
+  background-size: cover;
+  color: #ae0f0a;
+  font-family: 'Nova Mono', monospace;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 30px;
+  color: black;
+  margin: 0;
+  font-family: 'Xanh Mono', monospace;
+}
+
+ul {
+  list-style: none;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+li {
+  display: inline;
+}
+
+ul li a {
+  color: #ae0f0a;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px;
+}
+
+ul li a:hover {
+  opacity: 0.7;
+}
+
+.botao {
+  text-decoration: none;
+  background-color: #ae0f0a;
+  padding: 10px 15px;
+  color: white;
+  font-family: 'Nova Mono', monospace;
+}
+
+.botao:hover {
+  opacity: 0.7;
+}
+
+#logo {
+  margin: 500px 100px 0px 400px;
+}
+
+#logo img{
+  width: 1100px;
+}
+
+#texto_principal{
+  margin: 60px 100px 0px 400px;
+}
+
+#links {
+  margin:70px 100px 0px 400px;
+}
+
+@media (max-width: 1920px) {
+  #logo {
+    margin: 400px 100px 0px 200px;
+  }
+  
+  #logo img{
+    width: 1100px;
+  }
+  
+  #texto_principal{
+    margin: 60px 100px 0px 200px;
+  }
+  
+  #links {
+    margin:70px 100px 0px 200px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 25px;
+    color: black;
+    margin: 0;
+    font-family: 'Xanh Mono', monospace;
+  }
+
+  #logo {
+    margin: 400px 100px 0px 100px;
+  }
+  
+  #logo img{
+    width: 100%;
+  }
+  
+  #texto_principal{
+    margin: 60px 100px 0px 100px;
+  }
+  
+  #links {
+    margin:70px 100px 0px 100px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    font-family: 'Xanh Mono', monospace;
+  }
+
+  #logo {
+    margin: 400px 100px 0px 50px;
+  }
+  
+  #logo img{
+    width: 100%;
+  }
+  
+  #texto_principal{
+    margin: 60px 100px 0px 50px;
+  }
+  
+  #links {
+    margin:70px 100px 0px 50px;
+  }
+
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: px;
+    color: black;
+    margin: 0;
+    font-family: 'Xanh Mono', monospace;
+  }
+
+  ul li a {
+    color: #ae0f0a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  #logo {
+    margin: 380px 25px 0px 25px;
+  }
+  
+  #logo img{
+    width: 100%;
+  }
+  
+  #texto_principal{
+    margin: 60px 50px 0px 50px;
+  }
+  
+  #links {
+    margin:70px 50px 0px 50px;
+  }
+
+}
+
+/* breakpoints mais comuns 
+tlm: 640px
+tablet:768px
+laptop: 1024px
+desktop: 1280px
+xl desktop: 1536px
+*/
